@@ -55,7 +55,7 @@ def send_reminder():
     msg = MIMEMultipart("alternative")
     msg['From'] = "your-email@hotmail.com"
     msg['To'] = "your-loved-ones-email@email.com"
-    msg['Subject'] = "Tobi Return progress"
+    msg['Subject'] = "Any subject"
     text = MIMEText(create_message(), "plain")
     msg.attach(text)
 
