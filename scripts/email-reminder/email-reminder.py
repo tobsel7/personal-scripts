@@ -32,7 +32,7 @@ def create_message():
            "There are still " + str(days_remaining) + " days to go. \n" + \
            "Progress: " + get_progress_characters(progress) + "\n\n" + \
            "I love you. \n\n" + \
-           "Tobi"
+           "Your Name"
 
 
 def check_next_reminder_date():
